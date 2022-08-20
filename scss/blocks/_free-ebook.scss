@@ -1,0 +1,78 @@
+.free-ebook {
+  margin-bottom: 128px;
+}
+
+.free-ebook__container {
+  padding: 48px;
+  display: flex;
+  background: #111131;
+  border-radius: 8px;
+}
+
+.free-ebook__content {
+  margin-right: 90px;
+}
+
+.free-ebook__title {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #5c5cff;
+  margin-bottom: 27px;
+}
+.free-ebook__text {
+  width: 500px;
+  font-size: 31px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.free-ebook__form {
+  max-width: 534px;
+  padding-top: 30px;
+}
+
+.free-ebook__input {
+  max-width: 534px;
+  margin-bottom: 16px;
+  padding: 13px 201px;
+  background: #1b1b4d;
+  border: 1px solid #8989f8;
+  border-radius: 4px;
+  outline: #8989f8;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  &::placeholder {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #5c5cff;
+  }
+}
+.free-ebook__btn {
+  border: none;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  background: #5c5cff;
+  border-radius: 4px;
+  padding: 13px 211px 13px 212px;
+  transition: 0.2s ease;
+  border: 4px solid transparent;
+
+  &:hover {
+    background-color: #fff;
+    color: #5c5cff;
+    border: 4px solid #5c5cff;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}

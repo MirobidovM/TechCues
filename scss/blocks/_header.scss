@@ -1,0 +1,149 @@
+.header {
+  width: 1440px;
+  margin: 0 auto;
+  box-shadow: 6px 6px 16px rgba(17, 17, 49, 0.12);
+}
+
+.header__top {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: $main-blue;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.header__top-text {
+  font-size: 13px;
+  line-height: 29px;
+  text-align: center;
+  color: #ababfa;
+  margin-right: 8px;
+}
+
+.header__top-link {
+  font-size: 13px;
+  line-height: 29px;
+  text-align: center;
+  color: #ababfa;
+  transition: 0.2s ease;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.header__container {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/header-lupa.svg);
+  background-repeat: no-repeat;
+  background-position: right calc(50% - 510px) bottom 17px;
+}
+
+.header__logo {
+  transition: 0.2s ease;
+  margin-right: 36px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+}
+
+.header__nav {
+  margin-right: auto;
+  padding-top: 31px;
+  padding-bottom: 24px;
+}
+
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-item {
+  position: relative;
+  z-index: 1;
+  margin-right: 24px;
+
+  &:first-child {
+    width: 96px;
+    background-image: url(../img/dropdown-strelka.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+
+  &:nth-child(2) {
+    width: 54px;
+  }
+
+  &:last-child {
+    width: 85px;
+    background-image: url(../img/dropdown-strelka.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+}
+
+.header__nav-link {
+  font-size: 14px;
+  line-height: 29px;
+  color: #413e52;
+}
+
+.header__nav-link-dropdown {
+  display: none;
+  padding: 8px 0;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header__nav-link-dropdown-link {
+  display: block;
+  white-space: nowrap;
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 29px;
+  color: #413e52;
+  color: #000000;
+}
+
+.header__nav-link-dropdown-link:hover {
+  background-color: $index-blue;
+  color: #fff;
+}
+
+.header__nav-item:hover .header__nav-link-dropdown {
+  display: block;
+}
+
+.header__link {
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  color: #ffffff;
+  background: $index-blue;
+  border-radius: 4px;
+  padding: 7px 16px 8px 16px;
+  transition: 0.2s ease;
+
+  &:hover {
+    background: #fff;
+    color: $index-blue;
+    border: 2px solid $index-blue;
+  }
+}

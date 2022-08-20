@@ -1,0 +1,124 @@
+.studies {
+  margin-bottom: 128px;
+  background-image: url(../img/studies-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left calc(50% - 460px) bottom 70px;
+}
+
+.studies__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+
+.studies__title {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #413e52;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    width: 148px;
+    height: 4px;
+    background-color: #413e52;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 37px;
+  }
+}
+
+.studies__link {
+  padding-right: 27px;
+  font-size: 14px;
+  line-height: 29px;
+  color: #413e52;
+  background-image: url(../img/recent-strelka.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom 8px;
+  transition: 0.2s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+}
+
+.studies__line {
+  width: 1220px;
+  height: 1px;
+  background-color: #868297;
+  margin-bottom: 32px;
+}
+
+.studies__list {
+  display: flex;
+}
+
+.studies__item-1 {
+  margin-right: 56px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #ebeaf2;
+  border-radius: 8px;
+}
+
+.studies__item-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.studies__img {
+  margin-bottom: 31px;
+}
+
+.studies__item-name {
+  font-size: 13px;
+  line-height: 20px;
+  color: #868297;
+  margin-bottom: 4px;
+  padding-left: 25px;
+}
+
+.studies__item-description {
+  padding-left: 25px;
+  font-size: 29px;
+  line-height: 42px;
+  color: #413e52;
+  padding-bottom: 49px;
+}
+
+.studies__item-2-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.studies__item-2-list-item {
+  margin-bottom: 32px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.studies__item-2-list-item-name {
+  margin-bottom: 7px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #868297;
+}
+
+.studies__item-2-list-item-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #413e52;
+}

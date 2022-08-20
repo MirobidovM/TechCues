@@ -4,12 +4,377 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>TechCues</title>
+
+    <!-- FAVICON -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="theme-color" content="#ffffff" />
 
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
-    Starter file
-    <script src="js/index.js"></script>
+    <h1 class="visually-hidden">TechCues</h1>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header__top">
+        <p class="header__top-text">
+          Discover how you can scale your data with TechCues
+        </p>
+        <a class="header__top-link" href="/">Learn More</a>
+      </div>
+
+      <div class="container header__container">
+        <a class="header__logo" href="index.html">
+          <img
+            class="header__logo-img"
+            src="img/header-logo.svg"
+            alt="Site logo"
+            width="218"
+            height="50"
+          />
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Categories</a>
+              <ul class="header__nav-link-dropdown">
+                <li class="header__nav-link-dropdown-item">
+                  <a class="header__nav-link-dropdown-link" href="#"
+                    >Mobile Technology</a
+                  >
+                </li>
+                <li class="header__nav-link-dropdown-item">
+                  <a class="header__nav-link-dropdown-link" href="#"
+                    >Recent Articles</a
+                  >
+                </li>
+                <li class="header__nav-link-dropdown-item">
+                  <a class="header__nav-link-dropdown-link" href="#"
+                    >Case Studies</a
+                  >
+                </li>
+                <li class="header__nav-link-dropdown-item">
+                  <a class="header__nav-link-dropdown-link" href="#"
+                    >Data Insights</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Authors</a>
+            </li>
+
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Template</a>
+              <ul class="header__nav-link-dropdown">
+                <li class="header__nav-link-dropdown-item">
+                  <a class="header__nav-link-dropdown-link" href="#"
+                    >Mobile Technology</a
+                  >
+                </li>
+                <li class="header__nav-link-dropdown-item">
+                  <a class="header__nav-link-dropdown-link" href="#"
+                    >Recent Articles</a
+                  >
+                </li>
+                <li class="header__nav-link-dropdown-item">
+                  <a class="header__nav-link-dropdown-link" href="#"
+                    >Case Studies</a
+                  >
+                </li>
+                <li class="header__nav-link-dropdown-item">
+                  <a class="header__nav-link-dropdown-link" href="#"
+                    >Data Insights</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="header__link" href="#">Subscribe</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- INTRO -->
+      <section class="intro">
+        <div class="container intro__container">
+          <div class="intro__content">
+            <h2 class="intro__title">Mobile Technology</h2>
+            <p class="intro__text">
+              Technology in Sales: How Data is Powering Purchase Decisions
+            </p>
+
+            <div class="intro__person">
+              <p class="intro__person-name">Milford Smith</p>
+              <p class="intro__person-date">February 12, 2021</p>
+            </div>
+          </div>
+
+          <img
+            class="intro__img"
+            src="img/intro-img.jpg"
+            alt="intro illustration"
+            width="609"
+            height="560"
+          />
+        </div>
+      </section>
+
+      <!-- RECENT -->
+      <section class="recent">
+        <div class="container recent__container">
+          <div class="recent__content">
+            <h2 class="recent__title">Recent Articles</h2>
+            <a href="#" class="recent__link">View All</a>
+          </div>
+
+          <hr class="recent__line" />
+
+          <ul class="recent__list">
+            <li class="recent__item">
+              <h3 class="recent__item-title">Mobile Technology</h3>
+              <p class="recent__item-name">Adell Jacobi</p>
+              <p class="recent__description">
+                Best Technology Podcast <br />
+                Episodes of 2020
+              </p>
+            </li>
+
+            <li class="recent__item">
+              <h3 class="recent__item-title">Case Studies</h3>
+              <p class="recent__item-name">Adell Jacobi</p>
+              <p class="recent__description">
+                Drive Efficient Growth with <br />
+                Integrated Data
+              </p>
+            </li>
+
+            <li class="recent__item">
+              <h3 class="recent__item-title">Case Studies</h3>
+              <p class="recent__item-name">Milford Smith</p>
+              <p class="recent__description">
+                The Benefits of Data-Driven Storytelling with TechCues
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- FREE EBOOK -->
+      <section class="free-ebook">
+        <div class="container free-ebook__container">
+          <div class="free-ebook__content">
+            <h2 class="free-ebook__title">Free ebook</h2>
+            <p class="free-ebook__text">
+              5 Things You Can Do Right Now to Speed up Your Workflow
+            </p>
+          </div>
+
+          <form class="free-ebook__form">
+            <input
+              class="free-ebook__input"
+              type="email"
+              placeholder="Email address"
+              required
+            />
+            <button class="free-ebook__btn">SUBSCRIBE</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- STUDIES -->
+      <section class="studies">
+        <div class="container studies__container">
+          <div class="studies__content">
+            <h2 class="studies__title">Case Studies</h2>
+            <a class="studies__link">View All</a>
+          </div>
+
+          <hr class="studies__line" />
+
+          <ul class="studies__list">
+            <li class="studies__item-1">
+              <img
+                class="studies__img"
+                src="img/studies-img.jpg"
+                alt="studies illustration"
+                width="696"
+                height="360"
+              />
+
+              <p class="studies__item-name">Adell Jacobi</p>
+              <p class="studies__item-description">
+                Drive Efficient Growth with Integrated Data
+              </p>
+            </li>
+
+            <li class="studies__item-2">
+              <ul class="studies__item-2-list">
+                <li class="studies__item-2-list-item">
+                  <p class="studies__item-2-list-item-name">Milford Smith</p>
+                  <p class="studies__item-2-list-item-description">
+                    The Benefits of Data-Driven Storytelling with TechCues
+                  </p>
+                </li>
+
+                <li class="studies__item-2-list-item">
+                  <p class="studies__item-2-list-item-name">Adell Jacobi</p>
+                  <p class="studies__item-2-list-item-description">
+                    Sales Technologies: The Most Important Digital <br />
+                    Transformation Investment This Decade
+                  </p>
+                </li>
+
+                <li class="studies__item-2-list-item">
+                  <p class="studies__item-2-list-item-name">Lon Baumbach</p>
+                  <p class="studies__item-2-list-item-description">
+                    Outreach CRO Hosts Event for B2B SaaS <br />
+                    Community
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- MOBILE -->
+      <section class="mobile">
+        <div class="container mobile__container">
+          <ul class="mobile__list">
+            <li class="mobile__item">
+              <div class="mobile__content-top">
+                <h3 class="mobile__title">Mobile Technology</h3>
+                <a class="mobile__link" href="#">View All</a>
+              </div>
+
+              <hr class="mobile__line" />
+
+              <ul class="mobile__item-list">
+                <li class="mobile__item-list-item">
+                  <p class="mobile__item-name">Milford Smith</p>
+                  <p class="mobile__item-text">
+                    Technology in Sales: How Data is Powering Purchase Decisions
+                  </p>
+                </li>
+
+                <li class="mobile__item-list-item">
+                  <p class="mobile__item-name">Adell Jacobi</p>
+                  <p class="mobile__item-text">
+                    Best Technology Podcast Episodes of 2020
+                  </p>
+                </li>
+
+                <li class="mobile__item-list-item">
+                  <p class="mobile__item-name">Lon Baumbach</p>
+                  <p class="mobile__item-text">
+                    Integrate Big Data to Drive Informed, Agile Solutions
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="mobile__item-2">
+              <img
+                class="mobile__img"
+                src="img/mobile-raketa.svg"
+                alt="mobile illustration"
+                width="59"
+                height="59"
+              />
+
+              <h3 class="mobile__item-2-title">
+                Head <br />
+                ing
+              </h3>
+              <p class="mobile__item-2-text">
+                Quality tech news. In your inbox. Every week.
+              </p>
+
+              <form class="mobile__form">
+                <input
+                  class="mobile__form-input"
+                  type="email"
+                  required
+                  placeholder="Email address"
+                />
+                <button class="mobile__form-btn">SUBSCRIBE</button>
+              </form>
+            </li>
+
+            <li class="mobile__item">
+              <div class="mobile__content-top">
+                <h3 class="mobile__title">Data Insights</h3>
+                <a class="mobile__link" href="#">View All</a>
+              </div>
+
+              <hr class="mobile__line" />
+
+              <ul class="mobile__item-list">
+                <li class="mobile__item-list-item">
+                  <p class="mobile__item-name">Gerhard Hagenes</p>
+                  <p class="mobile__item-text">
+                    Building an Adaptable Enterprise Sales Organization in the
+                    Next Normal
+                  </p>
+                </li>
+
+                <li class="mobile__item-list-item">
+                  <p class="mobile__item-name">Jarred Homenick</p>
+                  <p class="mobile__item-text">
+                    It’s All About Timing — Good Sales Reps Know When to Follow
+                    Up
+                  </p>
+                </li>
+
+                <li class="mobile__item-list-item">
+                  <p class="mobile__item-name">Jarred Homenick</p>
+                  <p class="mobile__item-text">
+                    Peeking the Crystal Ball: 3 Bold Technology Predictions in
+                    2021
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__content"></div>
+      </div>
+      <div class="footer__bottom"></div>
+    </footer>
   </body>
 </html>

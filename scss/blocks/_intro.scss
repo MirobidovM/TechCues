@@ -1,0 +1,76 @@
+.intro {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url(../img/intro-bg-1.png), url(../img/intro-bg-2.png);
+  background-repeat: no-repeat;
+  background-position: right calc(50% - 500px) top 81px,
+    left calc(50% - 460px) bottom 57px;
+}
+
+.intro__container {
+  background: #ffffff;
+  border: 1px solid #ebeaf2;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.intro__content {
+  padding-top: 65px;
+  padding-bottom: 186px;
+  padding-left: 46px;
+  position: relative;
+  z-index: 1;
+}
+
+.intro__content::after {
+  content: '';
+  width: 4.1px;
+  height: 432px;
+  background-color: $index-blue;
+  position: absolute;
+  left: 0;
+  top: 65px;
+}
+
+.intro__title {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: $index-blue;
+  margin-bottom: 33px;
+  padding-left: 3px;
+}
+
+.intro__text {
+  width: 463px;
+  font-size: 42px;
+  line-height: 62px;
+  letter-spacing: 1px;
+  color: #413e52;
+  margin-bottom: 29px;
+}
+
+.intro__person {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3px;
+}
+
+.intro__person-name {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #413e52;
+  margin-bottom: 3px;
+}
+
+.intro__person-date {
+  font-size: 13px;
+  line-height: 20px;
+  color: #868297;
+}

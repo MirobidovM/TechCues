@@ -1,0 +1,162 @@
+.mobile {
+  margin-bottom: 240px;
+}
+
+.mobile__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile__item {
+  width: 369px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobile__content-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.mobile__title {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #413e52;
+}
+
+.mobile__link {
+  padding-right: 27px;
+  font-size: 14px;
+  line-height: 29px;
+  color: #413e52;
+  transition: 0.2s ease;
+  background-image: url(../img/recent-strelka.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+}
+
+.mobile__line {
+  width: 369px;
+  height: 1px;
+  background: #868297;
+  margin-bottom: 31px;
+}
+
+.mobile__item-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile__item-list-item {
+  margin-bottom: 37px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.mobile__item-name {
+  font-size: 13px;
+  line-height: 20px;
+  color: #868297;
+}
+
+.mobile__item-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #413e52;
+}
+
+.mobile__item-2 {
+  width: 369px;
+  display: flex;
+  flex-direction: column;
+  background: #111131;
+  border-radius: 8px;
+  padding-top: 50px;
+  padding-bottom: 48px;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+
+.mobile__img {
+  margin-bottom: 43px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile__item-2-title {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+  color: #5c5cff;
+}
+
+.mobile__item-2-text {
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 37px;
+}
+
+.mobile__form {
+  width: 273px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile__form-input {
+  width: 273px;
+  background: #1b1b4d;
+  border: 1px solid #8989f8;
+  border-radius: 4px;
+  padding: 13px 70px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 16px;
+
+  &::placeholder {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #5c5cff;
+  }
+}
+
+.mobile__form-btn {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding: 13px 80px;
+  transition: 0.2s ease;
+  background: #5c5cff;
+  border-radius: 4px;
+  border: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+}
