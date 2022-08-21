@@ -87,6 +87,15 @@
   font-size: 14px;
   line-height: 29px;
   color: #ababfa;
+  transition: 0.2s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
 }
 
 .footer__form {
@@ -126,7 +135,7 @@
   line-height: 30px;
   text-align: center;
   color: #ffffff;
-  padding: 13px 136px;
+  padding: 13px 132px;
   background: #5c5cff;
   border-radius: 4px;
   transition: 0.2s ease;
