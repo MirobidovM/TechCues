@@ -5,6 +5,7 @@
 .mobile__list {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .mobile__item {
@@ -26,6 +27,40 @@
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #413e52;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    width: 176px;
+    height: 4px;
+    background: #413e52;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 46px;
+  }
+}
+
+.mobile__title-2 {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #413e52;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    width: 123px;
+    height: 4px;
+    background: #413e52;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 46px;
+  }
 }
 
 .mobile__link {
@@ -147,7 +182,7 @@
   line-height: 30px;
   text-align: center;
   color: #ffffff;
-  padding: 13px 80px;
+  padding: 13px 78px;
   background: #5c5cff;
   border-radius: 4px;
   border: 3px solid transparent;
